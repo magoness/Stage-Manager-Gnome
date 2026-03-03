@@ -7,6 +7,12 @@ It is especially useful on laptops or compact displays where space is limited.
 
 # Installation
 
-1- Download the ZIP from GitHub.
-2- Extract it.
-3- Move the folder to: ~/.local/share/gnome-shell/extensions/
+Open the terminal and run:
+
+1- git clone https://github.com/magoness/Stage-Manager-Gnome.git
+
+2- mv Stage-Manager-Gnome ~/.local/share/gnome-shell/extensions/stagemode@mago
+
+3- gnome-extensions enable stagemode@mago
+
+Log out and log back in.
