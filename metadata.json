@@ -1,0 +1,7 @@
+{
+  "name": "Stage Mode",
+  "description": "Simple Stage Manager-like mode for GNOME",
+  "uuid": "stagemode@mago",
+  "shell-version": ["49"],
+  "version": 1
+}
