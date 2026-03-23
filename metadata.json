@@ -1,0 +1,9 @@
+{
+  "name": "Stage Manager Arc",
+  "description": "A macOS-style Stage Manager for GNOME with an arc carousel layout",
+  "uuid": "stagemode-arc@mago",
+  "shell-version": ["46", "47", "48", "49"],
+  "version": 2,
+  "settings-schema": "org.gnome.shell.extensions.stagemode-arc",
+  "url": "https://github.com/magoness/Stage-Manager-Gnome"
+}

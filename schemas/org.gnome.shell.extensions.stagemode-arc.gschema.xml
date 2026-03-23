@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.stagemode-arc"
+          path="/org/gnome/shell/extensions/stagemode-arc/">
+
+    <key name="layout-mode" type="s">
+      <default>'arc'</default>
+      <summary>Layout Mode</summary>
+      <description>arc or vertical</description>
+    </key>
+
+    <key name="panel-position" type="s">
+      <default>'left'</default>
+      <summary>Panel Position</summary>
+      <description>Where the carousel appears: left, right, or bottom</description>
+    </key>
+
+    <key name="thumbnail-size" type="i">
+      <default>100</default>
+      <range min="60" max="150"/>
+      <summary>Thumbnail Size</summary>
+      <description>Size of thumbnails as percentage of base size</description>
+    </key>
+
+    <key name="angle-step" type="i">
+      <default>15</default>
+      <range min="8" max="30"/>
+      <summary>Angle Between Items</summary>
+      <description>Degrees between carousel items (smaller = more items visible)</description>
+    </key>
+
+    <key name="scroll-speed" type="i">
+      <default>5</default>
+      <range min="1" max="20"/>
+      <summary>Scroll Speed</summary>
+      <description>Carousel scroll speed (1 = slowest, 20 = fastest)</description>
+    </key>
+
+    <key name="hide-delay" type="i">
+      <default>350</default>
+      <range min="100" max="2000"/>
+      <summary>Hide Delay</summary>
+      <description>Milliseconds before panel hides after mouse leaves</description>
+    </key>
+
+    <key name="persistent-mode" type="b">
+      <default>true</default>
+      <summary>Persistent Mode</summary>
+      <description>Keep panel visible when the screen edge area is clear of windows</description>
+    </key>
+
+    <key name="vert-spacing" type="i">
+      <default>6</default>
+      <range min="0" max="40"/>
+      <summary>Vertical Spacing</summary>
+      <description>Spacing in pixels between thumbnails in vertical layout mode</description>
+    </key>
+
+    <key name="order-map" type="s">
+      <default>'{}'</default>
+      <summary>Order Map</summary>
+      <description>JSON map of group_key to display order index</description>
+    </key>
+
+    <key name="merge-map" type="s">
+      <default>'{}'</default>
+      <summary>Merge Map</summary>
+      <description>JSON map of app_id to group_key for merged groups</description>
+    </key>
+
+    <key name="keybinding-toggle" type="as">
+      <default><![CDATA[['']]]></default>
+      <summary>Toggle Panel</summary>
+    </key>
+    <key name="keybinding-next" type="as">
+      <default><![CDATA[['']]]></default>
+      <summary>Navigate Next</summary>
+    </key>
+    <key name="keybinding-prev" type="as">
+      <default><![CDATA[['']]]></default>
+      <summary>Navigate Previous</summary>
+    </key>
+    <key name="keybinding-activate" type="as">
+      <default><![CDATA[['']]]></default>
+      <summary>Activate Item</summary>
+    </key>
+    <key name="keybinding-close" type="as">
+      <default><![CDATA[['']]]></default>
+      <summary>Close Window</summary>
+    </key>
+
+  </schema>
+</schemalist>
